@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', Arial;
+    }
+
+.menu {
+    text-align: center; 
+}
+
+.menu a:link {
+    text-decoration: none;
+} 
+
+.heading {
+    background-image: url(../img/banner.jpg);
+    color: white;
+    padding: 10em 0;
+    border-color: red;
+     }
+
+.mission {
+    background-color: #FFE964;
+}     
+
+.team {
+    background-color: #FF523D;
+}
+
+.contactSec {
+    background-color: #223C88;
+}
+
