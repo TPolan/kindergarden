@@ -1,2 +1,0 @@
-# kindergarden
-kindergarden project

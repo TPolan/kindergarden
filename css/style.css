@@ -1,31 +1,94 @@
-body {
-    font-family: 'Roboto', Arial;
-    }
-
-.menu {
-    text-align: center; 
+* {
+    box-sizing: border-box;
+    /* With the CSS box-sizing Property. The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element padding and border are included in the width and height: Both divs are the same size now! */
 }
 
-.menu a:link {
-    text-decoration: none;
-} 
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
 
-.heading {
-    background-image: url(../img/banner.jpg);
+body {
+    margin: 0;
+  }
+
+  .container {
+    width: 40em;
+    margin: 0 auto;
+  }
+
+section {
+    padding: 3rem 0rem 6rem 0rem;
+  }
+
+nav {
+    color: black;
+    text-align: center;
+}    
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 1em;  
+}
+
+nav a:hover {
+    color: #FF523D;;
+  }
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    height: 25rem;
+}
+
+.banner h1 {
+    font-size: 3em;
     color: white;
-    padding: 10em 0;
-    border-color: red;
-     }
+    padding-bottom: 1rem;
+    border-bottom: 4px solid white;
+}
+
+.belfast { 
+    color: #FFE964;
+}
+
+.international {
+    color: #FF523D;
+}
+
+.school {
+    color: #223C88;
+}
 
 .mission {
     background-color: #FFE964;
-}     
+    text-align: center;
+}
 
-.team {
+.aboutus {
+    background-color: white;
+}
+
+.ourteam {
     background-color: #FF523D;
+    color: white;
+    text-align: center;
 }
-
-.contactSec {
+.contact {
     background-color: #223C88;
+    padding: 3rem 0rem 6rem 0rem;
+    color: white;
 }
 
+h2 {
+    font-size: 3em;
+}
+
+.person img {
+width: 10em;
+height: 10em;   
+}
+
+.person {
+    padding-bottom: 3em;
+}
